@@ -11,8 +11,9 @@
 - Specificity & Selectors
 - Display
 - Box Model
-- Flex Box
 - Position
+- Flex Box
+
 
 ---
 
@@ -44,6 +45,34 @@ Note: call out selector type during demo
 
 Note: show nav section
 ---
+Position: static (default)
+---
+
+## Position: relative
+- Occupies space in the flow of the page.
+- Positioned relative to its normal position.
+    - this means you can reposition it by using left, top, etc.
+
+Note: show this in a plant item
+
+---
+### Position: absolute
+
+- Positioned with respect to its most recent non-statically positioned ancestor.
+-  You can adjust their location on the page by using left, top, etc.
+
+Note: add a bee  image on top of the hero section
+
+---
+## Position: fixed
+- Positioned relative to the viewport.
+    - the element stays in the same place in the viewport
+- Fixed elements are taken out of flow (they take up no space in the page)
+- You can adjust their location on the page by using left, top, etc.
+
+Note: make the navbar fixed to top
+
+---
 ##Box Model
 ![box-model](http://res.cloudinary.com/jenngeorge/image/upload/v1504753778/box-model_nvjdp7.png)
 
@@ -56,48 +85,6 @@ Note: show box model in chrome dev tools
 
 [css tricks guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
----
-## Position
-
-Remain in the document flow
-- static: default (top/left/right/bottom don't apply)
-- relative: relative to default position (can add top/left/right/bottom)
-
-Break out of the document flow
-- absolute: t/l/b/r context is the first positioned parent
-- fixed: t/l/b/r context is the viewport
-
-Note: more info: https://academind.com/learn/css/understanding-css/the-position-property/
----
-## Position: static
-* Static (default)
-* Sit in the flow of the document
-* You can't modify the position of a static element by using left, top, bottom, or right
-relative
-
----
-## Position: relative
-- Occupies space in the flow of the page.
-- Positioned relative to its normal position.
-    - this means you can reposition it by using left, top, etc.
-
-Note: show this in a plant item
----
-## Position: fixed
-- Positioned relative to the viewport.
-    - the element stays in the same place in the viewport
-- Fixed elements are taken out of flow (they take up no space in the page)
-- You can adjust their location on the page by using left, top, etc.
-
-Note: make the navbar fixed to top
-
----
-### Position: absolute
-
-- Positioned with respect to its most recent non-statically positioned ancestor.
--  You can adjust their location on the page by using left, top, etc.
-
-Note: add a bee  image on top of the hero section
 ---
 ### Additional Resources
 [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
